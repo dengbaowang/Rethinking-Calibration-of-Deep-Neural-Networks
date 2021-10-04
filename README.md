@@ -1,5 +1,5 @@
 # Rethinking-Calibration-of-Deep-Neural-Networks
-This is the implemention of our NeurIPS'21 paper (Rethinking Calibration of Deep Neural Networks: Do Not Be Afraid of Overconfidence).
+This is the implementation of our NeurIPS'21 paper (Rethinking Calibration of Deep Neural Networks: Do Not Be Afraid of Overconfidence).
 
 Requirements: 
 Python 3.6, 
@@ -19,3 +19,7 @@ python main.py  --dataset cifar100 --seed 101 --batch-size=512 --arch resnet32 -
 ```
 
 If you have any further questions, please feel free to send an e-mail to: wangdb@seu.edu.cn. Have fun!
+
+*** The TS algorithm in "temperature_scaling.py" is based on [Geoff Pleiss](https://geoffpleiss.com/)'s implementation ([gpleiss
+/
+temperature_scaling](https://github.com/gpleiss/temperature_scaling)).
