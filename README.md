@@ -8,7 +8,7 @@ Pytorch 1.5,
 torchvision 0.6.
 
 You need to:
-1. Download CIFAR-10 and CIFAR-100 datasets into './data/'.
+1. Download CIFAR-10 and CIFAR-100 datasets into `./data/`.
 2. Run the following demos:
 ```
 python main.py  --dataset cifar10 --seed 101 --batch-size=512 --arch resnet32 --method ce
