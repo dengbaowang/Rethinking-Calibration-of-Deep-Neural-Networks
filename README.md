@@ -24,14 +24,14 @@ python main.py  --dataset cifar100 --seed 101 --batch-size=512 --arch resnet32 -
 ```
 
 ## Citation
-'''
+```
 @inproceedings{neurips21dbwang,
 author = {Deng-Bao Wang and Lei Feng and Min-Ling Zhang},
 title = {Rethinking Calibration of Deep Neural Networks: Do Not Be Afraid of Overconfidence},
 booktitle = {Proceedings of the 35th Conference on Neural Information Processing Systems, Virtual Event},
 year = {2021}
 }
-'''
+```
 
 ## Acknowledgements
 The TS algorithm in `temperature_scaling.py` is based on [Geoff Pleiss](https://geoffpleiss.com/)'s [implementation](https://github.com/gpleiss/temperature_scaling).
