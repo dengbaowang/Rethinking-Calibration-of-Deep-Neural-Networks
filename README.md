@@ -28,7 +28,7 @@ python main.py  --dataset cifar100 --seed 101 --batch-size=512 --arch resnet32 -
 @inproceedings{neurips21dbwang,
 author = {Deng-Bao Wang and Lei Feng and Min-Ling Zhang},
 title = {Rethinking Calibration of Deep Neural Networks: Do Not Be Afraid of Overconfidence},
-booktitle = {Proceedings of the 35th Conference on Neural Information Processing Systems, Virtual Event},
+booktitle = {Advances in Neural Information Processing Systems, Virtual Event},
 year = {2021}
 }
 ```
