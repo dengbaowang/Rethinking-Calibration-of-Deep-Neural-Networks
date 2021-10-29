@@ -127,9 +127,9 @@ def resnet44():
 def resnet56():
     return ResNet(BasicBlock, [9, 9, 9])
 
-
-def resnet110(num_classes):
-    return ResNet(BasicBlock, [18, 18, 18], num_classes)
+#This ResNet110 is not good! I recommend you to use other implementation like in https://github.com/torrvision/focal_calibration/blob/main/Net/resnet.py.
+#def resnet110(num_classes):
+#    return ResNet(BasicBlock, [18, 18, 18], num_classes)
 
 
 def test(net):
