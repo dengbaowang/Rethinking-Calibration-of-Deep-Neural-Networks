@@ -127,7 +127,9 @@ def resnet44():
 def resnet56():
     return ResNet(BasicBlock, [9, 9, 9])
 
-#This ResNet110 is not good! I recommend you to use other implementation like in https://github.com/torrvision/focal_calibration/blob/main/Net/resnet.py.
+# This ResNet110 is not good at predictive accuracy! We used the ResNet110 code in https://github.com/torrvision/focal_calibration/blob/main/Net/resnet.py 
+#  in the experiments during rebuttal, which shows better predictive performance in practice. In the appendix of our NeurIPS paper, Tables F and G are based on this ResNet110
+#  implementation, and Table H is based on the implementation of https://github.com/torrvision/focal_calibration/blob/main/Net/resnet.py.
 #def resnet110(num_classes):
 #    return ResNet(BasicBlock, [18, 18, 18], num_classes)
 
