@@ -13,7 +13,7 @@ import torchvision.transforms as transforms
 import torchvision.datasets as datasets
 import numpy as np
 import copy
-import calibration as cal
+#import calibration as cal
 import random
 from torch.autograd import Variable
 
