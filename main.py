@@ -111,7 +111,7 @@ if args.dataset == 'cifar10':
                                  std=[0.229, 0.224, 0.225])
     num_classes = 10
     all_train_data1 = datasets.CIFAR10(
-        root='/seu_share/home/zhangml/wdb/outdis_constrain/version1/data',
+        root='./data',
         train=True,
         transform=transforms.Compose([
             transforms.RandomHorizontalFlip(),
@@ -121,7 +121,7 @@ if args.dataset == 'cifar10':
         ]),
         download=True)
     all_train_data2 = datasets.CIFAR10(
-        root='/seu_share/home/zhangml/wdb/outdis_constrain/version1/data',
+        root='./data',
         train=True,
         transform=transforms.Compose([
             #transforms.RandomHorizontalFlip(),
@@ -131,7 +131,7 @@ if args.dataset == 'cifar10':
         ]),
         download=True)
     test_data = datasets.CIFAR10(
-        root='/seu_share/home/zhangml/wdb/outdis_constrain/version1/data',
+        root='./data',
         train=False,
         transform=transforms.Compose([
             transforms.ToTensor(),
@@ -143,7 +143,7 @@ elif args.dataset == 'cifar100':
                                  std=[0.267, 0.256, 0.276])
     num_classes = 100
     all_train_data1 = datasets.CIFAR100(
-        root='/seu_share/home/zhangml/wdb/outdis_constrain/version1/data',
+        root='./data',
         train=True,
         transform=transforms.Compose([
             transforms.RandomHorizontalFlip(),
@@ -153,7 +153,7 @@ elif args.dataset == 'cifar100':
         ]),
         download=True)
     all_train_data2 = datasets.CIFAR100(
-        root='/seu_share/home/zhangml/wdb/outdis_constrain/version1/data',
+        root='./data',
         train=True,
         transform=transforms.Compose([
             #transforms.RandomHorizontalFlip(),
@@ -163,7 +163,7 @@ elif args.dataset == 'cifar100':
         ]),
         download=True)
     test_data = datasets.CIFAR100(
-        root='/seu_share/home/zhangml/wdb/outdis_constrain/version1/data',
+        root='./data',
         train=False,
         transform=transforms.Compose([
             transforms.ToTensor(),
